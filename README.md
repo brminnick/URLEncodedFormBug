@@ -29,10 +29,10 @@ This code uses `HttpClient.PostAsync` to submit `HttpContent` containing `FormUr
 ## Steps to run program successfully
 
  1. Download and open URLEncodedFormBug.sln in Xamarin Studio using the Environment Configuration below
- 2. Right-click URLEncodedFormBug.Droid, select Options --> iOS Build
+ 2. Right-click URLEncodedFormBug.iOS, select Options --> iOS Build
  3. Change the HttpClient Implementation to Managed (default)
  4. Click OK to accept changes
- 5. Set the URLEncodedFormBug.Droid as the Startup Project
+ 5. Set the URLEncodedFormBug.iOS as the Startup Project
  6. Build, Deploy and run URLEncodedFormBug.iOS on a Device or iOS10 Simulator
  7. Click the Submit Button 
  8. DisplayAlert shows Success
