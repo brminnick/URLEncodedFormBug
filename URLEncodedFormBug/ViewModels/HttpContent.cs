@@ -1,0 +1,6 @@
+﻿namespace URLEncodedFormBug
+{
+	class HttpContent
+	{
+	}
+}
