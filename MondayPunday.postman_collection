@@ -1,0 +1,43 @@
+{
+	"variables": [],
+	"info": {
+		"name": "MondayPunday",
+		"_postman_id": "4227077e-924d-f48c-00cb-e096b39351d8",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://mondaypunday.com/321",
+			"request": {
+				"url": "http://mondaypunday.com/321",
+				"method": "POST",
+				"header": [
+					{
+						"key": "ZUMO-API-VERSION",
+						"value": "2.0.0",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "answer",
+							"value": "catastrophe",
+							"type": "text",
+							"enabled": true
+						}
+					]
+				},
+				"description": "Post Request Containing FormURL"
+			},
+			"response": []
+		}
+	]
+}
