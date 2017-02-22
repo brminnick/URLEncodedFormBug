@@ -4,7 +4,8 @@ A Xamarin.Forms solution to reproduce an HttpClient problem experienced in Cycle
 This code uses `HttpClient.PostAsync` to submit `HttpContent` containing `FormUrlEncodedContent` to a website. If `HttpClient.PostAsync` is successful, the html response `Content` should contain the string `Correct!`.
 
 When Does The Error Occur?
- - Xamarin.iOS on Cycle 9, using `NSUrlSession` for the HttpClient Implementation (Beta Release as of 22 Febrary 2017)
+ - Xamarin.iOS on Cycle 9, using `NSUrlSession` for the HttpClient Implementation
+   - Cycle 9 Beta Release as of 22 Febrary 2017
  
 When Does the Error **Not** Occur?
  - Xamarin.iOS on Cycle 8 (Stable Release as of 22 Febrary 2017)
