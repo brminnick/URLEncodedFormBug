@@ -8,10 +8,9 @@ Reproduction of Xamarin.iOS PostAsync Bug when using FormUrlEncodedContent
 Version 6.2 (build 1812)
 Installation UUID: 3ac98a61-67a7-411f-b124-19833ec9a519
 Runtime:
-	Mono 4.8.0 (mono-4.8.0-branch/9ac5bf2) (64-bit)
-	GTK+ 2.24.23 (Raleigh theme)
-
-	Package version: 408000489
+ - Mono 4.8.0 (mono-4.8.0-branch/9ac5bf2) (64-bit)
+ - GTK+ 2.24.23 (Raleigh theme)
+ - Package version: 408000489
 
 === NuGet ===
 
