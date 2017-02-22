@@ -26,6 +26,17 @@ This code uses `HttpClient.PostAsync` to submit `HttpContent` containing `FormUr
  4. Click the Submit Button
  5. `DisplayAlert` shows `Failed` because the HTML Response doesn't contain `Correct!`
  
+## Steps to run program successfully
+
+ 1. Download and open URLEncodedFormBug.sln in Xamarin Studio using the Environment Configuration below
+ 2. Right-click URLEncodedFormBug.Droid, select Options --> iOS Build
+ 3. Change the HttpClient Implementation to Managed (default)
+ 4. Click OK to accept changes
+ 5. Set the URLEncodedFormBug.Droid as the Startup Project
+ 6. Build, Deploy and run URLEncodedFormBug.iOS on a Device or iOS10 Simulator
+ 7. Click the Submit Button 
+ 8. DisplayAlert shows Success
+ 
 
 ##Environment
 === Xamarin Studio Enterprise ===
