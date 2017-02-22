@@ -8,10 +8,14 @@ When Does The Error Occur?
    - Cycle 9 Beta Release as of 22 Febrary 2017
  
 When Does the Error **Not** Occur?
- - Xamarin.iOS on Cycle 8 (Stable Release as of 22 Febrary 2017)
+ - Xamarin.iOS on Cycle 8
+   - Cycle 8 Stable Release as of 22 Febrary 2017
  - Xamarin.iOS on Cycle 9, using `Managed (default)` for the HttpClient Implementation
+    - Cycle 9 Beta Release as of 22 Febrary 2017
  - Xamarin.Android on Cycle 9 using `AndroidClientHandler` for the HttpClient Implementation
+    - Cycle 9 Beta Release as of 22 Febrary 2017
  - Xamarin.Android on Cycle 9 using `Managed (HttpClientHandler)` for the HttpClient Implementation
+    - Cycle 9 Beta Release as of 22 Febrary 2017
  - Creating the `Post` request using [PostMan](https://www.getpostman.com), [link to postman collection](https://github.com/brminnick/URLEncodedFormBug/blob/master/MondayPunday.postman_collection)
  
 
