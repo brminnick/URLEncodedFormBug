@@ -1,6 +1,26 @@
 # URLEncodedFormBug
-Reproduction of Xamarin.iOS PostAsync Bug when using FormUrlEncodedContent
+A Xamarin.Forms solution to reproduce an HttpClient problem experienced in Cycle 9
 
+This code uses `HttpClient.PostAsync` to submit `HttpContent` containing `FormUrlEncodedContent` to a website. If `HttpClient.PostAsync` is successful, the html response `Content` should contain the string `Correct!`.
+
+When Does The Error Occur?
+ - Xamarin.iOS on Cycle 9, using `NSUrlSession` for the HttpClient Implementation (Beta Release as of 22 Febrary 2017)
+ 
+When Does the Error **Not** Occur?
+ - Xamarin.iOS on Cycle 8 (Stable Release as of 22 Febrary 2017)
+ - Xamarin.iOS on Cycle 9, using `Managed (default)` for the HttpClient Implementation
+ - Xamarin.Android on Cycle 9 using `AndroidClientHandler` for the HttpClient Implementation
+ - Xamarin.Android on Cycle 9 using `Managed (HttpClientHandler)` for the HttpClient Implementation
+ - Creating the `Post` request using [PostMan](https://www.getpostman.com), [link to postman collection](https://github.com/brminnick/URLEncodedFormBug/blob/master/MondayPunday.postman_collection)
+ 
+
+Steps to reproduce bug:
+ 1. Download and open URLEncodedFormBug.sln in Xamarin Studio using the Environment Configuration below
+ 2. Set the URLEncodedFormBug.iOS as the Startup Project
+ 3. Build, Deploy and run URLEncodedFormBug.iOS on a Device or iOS10 Simulator
+ 4. Click the Submit Button
+ 5. `DisplayAlert` shows `Failed` because the HTML Response doesn't contain `Correct!`
+ 
 
 ###Environment
 === Xamarin Studio Enterprise ===
